@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','app\Http\Controllers\PersonaController@index');
+Route::get('/','app\Http\Controllers\PersonaController@index1');
 /*
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

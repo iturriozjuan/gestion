@@ -20,7 +20,7 @@ class PersonaController extends Controller
         $this->persona=$persona;
 
     }
-    public function index(){
+    public function index1(){
         //
         return view('index');
     }
