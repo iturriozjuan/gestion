@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use app\Models\Persona;
 use resource\views;
 
+
 class PersonaController extends Controller
 {
     /*index
@@ -26,5 +27,5 @@ class PersonaController extends Controller
     }
 
 
-    }
 }
+
