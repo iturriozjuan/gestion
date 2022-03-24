@@ -3,23 +3,5 @@
 use Illuminate\Support\Facades\Route;
 use app\Http\Controllers;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-Route::get('/','app\Http\Controllers\PersonaController@index1');
-/*
-
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
-
-*/
+Route::get('\',[PersonalControl::class, 'inicio']);
 
