@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use app\Http\Controllers;
-
-Route::get('\',[PersonalControl::class, 'inicio']);
+//rutas sistema
+Route::get('/','app\Http\Controllers\PersonaControl@inicioPersona');
 

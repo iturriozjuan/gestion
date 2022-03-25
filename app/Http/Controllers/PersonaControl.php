@@ -3,28 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use app\Http\Controllers\Controller;
 
 
 
-class PersonaControl extends Controller
-{
-    //
-      /*index
-    - store
-    - update
-    - destroy
-    - edit
-    @return \illuminate\Http\Response
+class PersonaControl extends Controller{
 
-    protected $persona;
-    public function __construct(Persona $persona){
-        $this->persona=$persona;
+    public function inicioPersona(){
+        return view('index');
+
 
     }
-*/
-    public function inicio(){
-        //
-        
-        return view('index');
-        }
+
+
+
+
+
+
 }
